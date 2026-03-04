@@ -14,3 +14,7 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
+
+## Links
+- GitHub: https://github.com/SaraKhandakar/CST2216-Clustering-Streamlit
+- Streamlit: https://cst2216-clustering-app-cn3agktndgzhecfzspckwv.streamlit.app/
