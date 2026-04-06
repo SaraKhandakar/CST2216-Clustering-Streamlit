@@ -56,8 +56,8 @@
 - This project is deployed on Streamlit Community Cloud
 
 ## Links
-- GitHub: `https://github.com/SaraKhandakar/CST2216-Clustering-Streamlit`
-- Streamlit: `https://cst2216-clustering-app-cn3agktndgzhecfzspckwv.streamlit.app/`
+- GitHub: [CST2216 Clustering Repository](https://github.com/SaraKhandakar/CST2216-Clustering-Streamlit)
+- Streamlit: [Live App](https://cst2216-clustering-app-cn3agktndgzhecfzspckwv.streamlit.app/)
 
 ## Author
 - Shara Khandakar
