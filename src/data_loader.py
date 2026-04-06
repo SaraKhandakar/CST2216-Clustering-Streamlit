@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-REQUIRED_COLS = ["Customer_ID", "Gender", "Age", "Annual_Income", "Spending_Score"]
+REQUIRED_COLS = ["Gender", "Age", "Annual_Income", "Spending_Score"]
 
 def load_data(csv_path: Path, logger) -> pd.DataFrame:
     try:
@@ -14,6 +14,7 @@ def load_data(csv_path: Path, logger) -> pd.DataFrame:
             raise ValueError(f"Missing required columns: {missing}")
 
         return df
+
     except Exception:
         logger.exception("Failed to load dataset.")
         raise
