@@ -16,6 +16,7 @@ def plot_silhouette(ks, scores):
     ax.set_xlabel("Number of clusters (k)")
     ax.set_ylabel("Silhouette Score")
     ax.set_title("Silhouette Plot")
+    ax.set_ylim(-1, 1)
     return fig
 
 def plot_clusters_2d(df, x_col, y_col, labels, centers):

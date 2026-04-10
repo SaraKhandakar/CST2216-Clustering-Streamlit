@@ -9,7 +9,7 @@ LOG_PATH = PROJECT_ROOT / "logs" / "app.log"
 FEATURE_SET_2D = ["Annual_Income", "Spending_Score"]
 FEATURE_SET_3D = ["Age", "Annual_Income", "Spending_Score"]
 
-K_MIN = 3
+K_MIN = 2
 K_MAX = 8
 DEFAULT_K = 5
 RANDOM_STATE = 42
