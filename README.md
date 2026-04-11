@@ -19,6 +19,13 @@
 - 2D or 3D feature visualization
 - Cluster summary and insights
 
+## Logging
+- Logging is implemented using Python logging module
+- Logs are stored in logs/app.log
+- Uses file logging and console output
+- Tracks data loading, clustering steps, and errors
+- Rotating logs prevent large file sizes
+
 ## Project Structure
 - `app.py`
 - `config.py`
@@ -33,6 +40,8 @@
   - `data_loader.py`
   - `utils.py`
   - `visuals.py`
+- `logs/`
+  - `app.log`
 - `tests/`
   - `test_smoke.py`
 
